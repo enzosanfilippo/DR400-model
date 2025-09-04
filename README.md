@@ -15,7 +15,7 @@ The motivation behind this project was to:
 
 The learning process was mostly based on YouTube tutorials and self-experimentation.
 
----
+
 
 ##  Project Content
 The OpenVSP geometry file includes:
@@ -25,8 +25,6 @@ The OpenVSP geometry file includes:
 - Fairings and landing gear wheels  
 - Propeller  
 
----
-
 ##  Future Improvements
 Several aspects can be refined to improve the accuracy of the model:
 - Implement the **exact propeller** model used on DR400 aircraft  
@@ -35,14 +33,14 @@ Several aspects can be refined to improve the accuracy of the model:
 - Generate a **coherent mesh** that can be processed by the **VSPAero module**  
   (currently, VSPAero fails due to mesh inconsistencies)  
 
----
+
 
 ##  Next Steps
 The next major development will focus on **automating aerodynamic coefficient calculations** using the Python API for OpenVSP.  
 
 Current limitation: version conflicts between **Spyder** (Python environment) and **OpenVSP** prevent smooth API integration.  
 
----
+
 
 ##  Contributions
 I am open to external contributions and collaboration with fellow aviation enthusiasts!  
@@ -53,7 +51,7 @@ Ways to contribute:
 
 If you have experience with OpenVSP, VSPAero, or aerodynamics simulation in general, your help will be highly appreciated !
 
----
+
 
 ##  Repository Structure  
 - /geometry/ → dr_400.vsp3 # Main OpenVSP geometry file
